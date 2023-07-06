@@ -21,7 +21,7 @@ int main()
       cin >> size;
     } while (size < 1 || size > MAX_SIZE);
 
-    cout << "Enter " << size << " integer values, space separated: ";
+    cout << "Enter " << size << " (positive or negative) integer values, space separated: ";
     for (int i = 0; i < size; ++i) {
         cin >> arr[i];
     }
